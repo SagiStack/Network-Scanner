@@ -7,7 +7,7 @@ A professional-grade Network Discovery and Security tool built with **Python**, 
 
 ##  Features
 
-* **Network Discovery:** Scan specific IP addresses or entire subnets (e.g., `10.100.102.1-50`).
+* **Network Discovery:** Scan specific IP addresses or entire subnets (e.g., `10.150.192.1-50`).
 * **Deep Port Scanning:** Identifies open ports including SSH (22), DNS (53), HTTP (80), and HTTPS (443).
 * **Service Version Detection:** Leverages Nmap's engine to identify the exact software and version running on each port.
 * **Vulnerability Assessment:** Integrated "Vulnerability Scan" toggle to run Nmap scripts (`--script=vuln`) for identifying known CVEs.
