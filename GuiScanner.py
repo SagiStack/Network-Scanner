@@ -4,9 +4,6 @@ import threading
 from tkinter import scrolledtext, messagebox
 import os
 
-def is_checked(flag):
-    flag = True
-
 
 def open_report():
     if os.path.exists("Net_Report.txt"):
@@ -61,7 +58,7 @@ def run_scan():
 
 
 
-flag = False
+
 root = tk.Tk()
 root.title("Cyber Scanner")
 root.geometry("600x500")
